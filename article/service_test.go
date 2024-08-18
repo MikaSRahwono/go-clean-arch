@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/bxcodec/go-clean-arch/article"
-	"github.com/bxcodec/go-clean-arch/article/mocks"
-	"github.com/bxcodec/go-clean-arch/domain"
+	"github.com/MikaSRahwono/go-clean-arch/article"
+	"github.com/MikaSRahwono/go-clean-arch/article/mocks"
+	"github.com/MikaSRahwono/go-clean-arch/domain"
 )
 
 func TestFetchArticle(t *testing.T) {

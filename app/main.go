@@ -12,11 +12,11 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/labstack/echo/v4"
 
-	mysqlRepo "github.com/bxcodec/go-clean-arch/internal/repository/mysql"
+	mysqlRepo "github.com/MikaSRahwono/go-clean-arch/internal/repository/mysql"
 
-	"github.com/bxcodec/go-clean-arch/article"
-	"github.com/bxcodec/go-clean-arch/internal/rest"
-	"github.com/bxcodec/go-clean-arch/internal/rest/middleware"
+	"github.com/MikaSRahwono/go-clean-arch/article"
+	"github.com/MikaSRahwono/go-clean-arch/internal/rest"
+	"github.com/MikaSRahwono/go-clean-arch/internal/rest/middleware"
 	"github.com/joho/godotenv"
 )
 
